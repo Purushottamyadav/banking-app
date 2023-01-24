@@ -1,0 +1,42 @@
+
+body{
+    background-image: url('https://www.dailyexcelsior.com/wp-content/uploads/2022/06/12-24.jpg');
+}
+.container {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.middleContainer{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTF9fkeVI1-fdBQgpADQN4GYtbf1V_tmDjkbQ&usqp=CAU");
+    background-color: white;
+    height: 500px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-shadow: 2px;
+    margin-top: -30px;
+    border-radius: 10px;
+}
+h3{
+    margin-top: 15px;
+}
+.middleContainer form h1{
+    font-size: 30px;
+    color: rgb(115, 142, 18);
+}
+.regButton{
+    width: 254px;
+    height: 40px;
+    background-color: rgb(53, 154, 53);
+    border: none;
+    cursor: pointer;
+}

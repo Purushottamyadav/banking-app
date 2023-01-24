@@ -1,0 +1,53 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Titillium Web';
+    color: black;
+}
+#main-container{
+    position: fixed;
+    inset: 0;
+    backdrop-filter: blur(0px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:100vw;
+    height:100vh;
+    background-color: rgba(139, 131, 131, 0.3);
+}
+
+.short-container{
+   
+    height:auto;
+    width:auto;
+    background-color: rgb(218, 163, 13);
+    text-align: center;
+    display: flex;
+    flex-direction: column;  
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: aliceblue;
+
+}
+
+.short-container .inputContainer label{
+    color: black;
+    font-weight: 700;
+    margin-right: 80px;
+    font-size: 20px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

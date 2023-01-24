@@ -1,0 +1,64 @@
+body{
+    width: 100%;
+    
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.buttonContainer{
+    height: 79vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logoutButton button{
+    width: 140px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(238, 0, 0);
+    border: none;
+}
+header{
+    background-color: rgb(164, 213, 233);
+    display: flex;
+}
+header h3{
+    color: aliceblue;
+    padding: 0px;
+    margin: 0px;
+}
+.buttonContainer div button{
+    background-color: rgb(6, 114, 60);
+    border: none;
+}
+.header-container{
+    display: flex;
+    width: auto;
+    justify-content: space-between;
+   
+}
+.image-container img{
+    border-radius: 50%;
+    width: 90px;
+}
+input{
+    padding: 15px;
+}
+input:focus{
+    background-color: darkkhaki;
+}
+.buttonContainer div button:hover{
+    background-color: rgb(197, 156, 224);
+}
+i{
+    color: aliceblue;
+}
+.all-payment{
+    display: flex;
+    flex-direction: column;
+}
